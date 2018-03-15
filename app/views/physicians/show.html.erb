@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @physician.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @physician.last_name %>
+</p>
+
+<p>
+  <strong>Npi:</strong>
+  <%= @physician.npi %>
+</p>
+
+<p>
+  <strong>Address1:</strong>
+  <%= @physician.address1 %>
+</p>
+
+<p>
+  <strong>Address2:</strong>
+  <%= @physician.address2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @physician.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @physician.state %>
+</p>
+
+<p>
+  <strong>Postal code:</strong>
+  <%= @physician.postal_code %>
+</p>
+
+<%= link_to 'Edit', edit_physician_path(@physician) %> |
+<%= link_to 'Back', physicians_path %>
